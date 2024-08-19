@@ -1,0 +1,13 @@
+
+    <p>This is a server response.</p>
+    <h2>halo nama saya <%= nama %></h2>
+    <h4>daftar mahasiswa</h4>
+    <% if (mahasiswa.length < 1) { %>
+    <p>data mahasiswa masih kosong</p>
+    <% } else { %> <% mahasiswa.forEach(mhs => { %>
+    <ul>
+      <li>nama: <%= mhs.nama %></li>
+      <li>email: <%= mhs.email %></li>
+    </ul>
+    <% }) %><% } %>
+

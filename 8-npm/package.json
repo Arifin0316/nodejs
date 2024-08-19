@@ -1,0 +1,16 @@
+{
+  "name": "8-npm",
+  "version": "1.0.0",
+  "description": "belaja node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arifin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.5.2"
+  }
+}
